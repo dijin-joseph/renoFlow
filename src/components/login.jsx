@@ -11,7 +11,7 @@ import {
 } from "lucide-react";
 
 import "./login.css";
-import renoFlowLogo from "../assets/renoFlowLogo.png";
+import renoFlowLogo from "../assets/RenoFlowLogo.png";
 import houseImage from "../assets/loginHouse.png";
 
 export function Login() {

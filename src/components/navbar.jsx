@@ -1,6 +1,6 @@
 import "./navbar.css";
 import { ChevronDown, Menu } from "lucide-react";
-import renoFlowLogo from "../assets/renoFlowLogo.png";
+import renoFlowLogo from "../assets/RenoFlowLogo.png";
 
 export function Navbar() {
   return (
