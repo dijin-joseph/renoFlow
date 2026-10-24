@@ -5,10 +5,12 @@
 .dashboard-content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   width: 100%;
   min-width: 0;
-  min-height: calc(100vh - 60px);
+  min-height: calc(100vh - 70px);
+  padding: 24px 0 40px;
+  box-sizing: border-box;
   background-color: #f9fafb;
 }
 
@@ -18,7 +20,7 @@
   gap: 10px;
   width: calc(100% - 48px);
   max-width: 1600px;
-  margin: auto;
+  margin: 0 auto;
   box-sizing: border-box;
 }
 
@@ -338,10 +340,6 @@
 =================================== */
 
 @media (max-width: 1100px) {
-  .dashboard-content {
-    justify-content: flex-start;
-  }
-
   .welcome-content {
     margin: 16px auto;
   }
