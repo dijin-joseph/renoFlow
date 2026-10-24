@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
 import { Login } from "./components/login";
 import { Navbar } from "./components/navbar";
 import { Sidebar } from "./components/sidebar";
@@ -7,7 +7,7 @@ import { Content } from "./components/content";
 
 function App() {
   return (
-    <BrowserRouter basename="/renoFlow">
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Navigate to="/login" replace />} />
 
@@ -26,7 +26,7 @@ function App() {
           }
         />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
